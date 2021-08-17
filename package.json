@@ -1,0 +1,30 @@
+{
+  "name": "goit-js-hw-13-image-finder",
+  "version": "1.0.0",
+  "description": "App for search and view images",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html -p 4140",
+    "build": "parcel build src/index.html --public-url /goit-js-hw-13-image-finder/",
+    "deploy": "parcel gh-pages -d dist",
+    "predeploy": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aleksandr-Bondarenko/goit-js-hw-13-image-finder.git"
+  },
+  "keywords": [],
+  "author": "Aleksandr Bondarenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aleksandr-Bondarenko/goit-js-hw-13-image-finder/issues"
+  },
+  "homepage": "https://Aleksandr-Bondarenko.github.io/goit-js-hw-13-image-finder",
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "material-design-icons": "^3.0.1",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  }
+}
