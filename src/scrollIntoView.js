@@ -1,5 +1,6 @@
-const element = document.getElementById(".my-element-selector");
-element.scrollIntoView({
-  behavior: "smooth",
-  block: "end",
-});
+export default function scrollIntoView(el) {
+  el.scrollIntoView({
+    behavior: "smooth",
+    block: "end",
+  });
+}

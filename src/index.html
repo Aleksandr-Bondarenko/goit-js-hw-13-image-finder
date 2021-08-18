@@ -4,12 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link
+    <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
-    /> -->
+    />
     <link rel="icon" href="data:," />
+    <style>
+      img {
+        width: 200px;
+        height: auto;
+      }
 
+      .more-button {
+        display: block;
+        margin: 0 auto;
+      }
+
+      .more-button.hidden-btn,
+      .search-button.hidden-btn {
+        visibility: hidden;
+      }
+
+      .gallery {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .stats {
+        display: flex;
+      }
+    </style>
     <title>Image Finder</title>
   </head>
   <body>
