@@ -1,8 +1,12 @@
 <ul class="gallery">
   {{#each list}}
-    <li>
+    <li class="list-item">
       <div class="photo-card">
-        <img src="{{this.webformatURL}}" alt="" />
+        <img
+          src="{{this.webformatURL}}"
+          bigImgSrc="{{this.largeImageURL}}"
+          alt=""
+        />
 
         <div class="stats">
           <p class="stats-item">
